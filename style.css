@@ -1,0 +1,81 @@
+#div1{
+    background: burlywood;
+    /* altezza e larghezza box*/
+    width: 100vw - 30px;
+    height: 100px;
+    display: flex;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+.gigi{
+    align-self: center;
+    margin-inline: auto;
+}
+#food{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 52.7vw;
+    padding-top: 10px;
+    background: bisque;
+    width: 330px;
+    height: 260px;
+    border: 5px solid rgb(231, 174, 100);
+    
+
+}
+#info{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 52.7vw;
+    padding-left: 10px;
+    padding-top: 10px;
+    background: bisque;
+    width: 400px;
+    height: 280px;
+    border: 5px solid rgb(231, 174, 100);
+}
+/*position serve per posizionare l'elemento
+    static   l'elemento occupal la pos di default
+    relative l'elemento viene traslato rispetto alla pos di default
+    fixed    l'elemento viene spostato rispetto all'origine della finestra
+    absolute l'elemento viene spostato rispetto all'origine del contentitore
+    sticky   leggi w3school
+    
+*/
+
+#img1{
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+#video{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 1px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background: bisque;
+    width: 330px;
+    height: 280px;
+    border: 5px solid rgb(231, 174, 100);
+    float: left;
+}
+#table{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 52.7vw;
+    padding-left: 10px;
+    padding-top: 10px;
+    background: bisque;
+    width: 330px;
+    height: 260px;
+    border: 5px solid rgb(231, 174, 100);
+    clear: left;
+}
